@@ -3,6 +3,8 @@
 """
 K-anonymity for texts
 """
+# must imports
+import pandas as pd
 
 def llm_method(arguments):
     """
