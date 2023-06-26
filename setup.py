@@ -1,3 +1,4 @@
+
 from setuptools import setup, find_packages
 
 VERSION = '0.0.1'
@@ -6,10 +7,14 @@ LONG_DESCRIPTION = 'A package that takes a dataframe with a corpus and return an
 
 # Setting up
 setup(
-    name="Kanon4txt_try",
+    name="Kanon4txt",
     version=VERSION,
-    author="Liortrieman (Lior Trieman)",
+    author="Lior Trieman",
     author_email="<liortr30@gmail.com>",
+    url='https://github.com/LiorTrieman/Kanon4txt/tree/maine',
+    download_url='https://github.com/LiorTrieman/Kanon4txt/archive/refs/tags/0.0.1.tar.gz',  # I explain this later on
+
+    license='MIT',
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
@@ -27,8 +32,9 @@ setup(
                       "tqdm==4.64.1"],
     keywords=['python', 'corpus', 'stopwords', 'DBSCAN', 'generalization', 'reduction'],
     classifiers=[
-        "Development Status :: 1 - Planning",
+        "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
+        'License :: OSI Approved :: MIT License',
         "Programming Language :: Python :: 3",
 
     ]
