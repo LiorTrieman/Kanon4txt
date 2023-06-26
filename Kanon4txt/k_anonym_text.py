@@ -5,6 +5,8 @@ K-anonymity for texts
 """
 # must imports
 import pandas as pd
+from utils import nlp_utils, cluster_utils, utilization_utils, anonym_utils  # ADDED
+
 
 def llm_method(arguments):
     """
