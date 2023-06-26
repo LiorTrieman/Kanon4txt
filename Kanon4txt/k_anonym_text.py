@@ -5,7 +5,7 @@ K-anonymity for texts
 """
 # must imports
 import pandas as pd
-from utils import nlp_utils, cluster_utils, utilization_utils, anonym_utils  # ADDED
+# from utils import nlp_utils, cluster_utils, utilization_utils, anonym_utils  # ADDED
 
 
 def llm_method(arguments):
@@ -103,7 +103,7 @@ def run_anonym(df: pd.DataFrame, k: int, col: str='txt', plot: bool=False, n_job
     """
     The main function. Runs the anonymization.
     """
-    from utils import nlp_utils, cluster_utils, utilization_utils, anonym_utils
+    #from utils import nlp_utils, cluster_utils, utilization_utils, anonym_utils
 
     # # getting the input arguments
     # input_file = arguments.file  # Input database
