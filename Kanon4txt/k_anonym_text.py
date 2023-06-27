@@ -111,7 +111,7 @@ def run_anonym(df: pd.DataFrame, k: int, col: str='txt', plot: bool=False, n_job
     """
     The main function. Runs the anonymization.
     """
-    from utils import nlp_utils, cluster_utils, utilization_utils, anonym_utils
+    from Kanon4txt.utils import nlp_utils, cluster_utils, utilization_utils, anonym_utils
 
     # # getting the input arguments
     # input_file = arguments.file  # Input database
