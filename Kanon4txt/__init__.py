@@ -1,3 +1,2 @@
 # __init__.py
-from .data import *
-from .utils import *
+from .k_anonym_text import *
