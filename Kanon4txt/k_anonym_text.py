@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# Revision 0.1.2 try to upload to pip lets see if i can
 
 """
 K-anonymity for texts
