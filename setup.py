@@ -1,7 +1,7 @@
 
 from setuptools import setup, find_packages
 
-VERSION = '0.0.4'
+VERSION = '0.0.8'
 DESCRIPTION = 'K Anonymity for Text first Try'
 LONG_DESCRIPTION = 'A package that takes a dataframe with a corpus and return an anonymized corpus'
 
@@ -12,7 +12,7 @@ setup(
     author="Lior Trieman",
     author_email="<liortr30@gmail.com>",
     url='https://github.com/LiorTrieman/Kanon4txt/tree/maine',
-    download_url='https://github.com/LiorTrieman/Kanon4txt/archive/refs/tags/0.0.4.tar.gz',  # I explain this later on
+    download_url='https://github.com/LiorTrieman/Kanon4txt/archive/refs/tags/0.0.8.tar.gz',  # I explain this later on
 
     license='MIT',
     description=DESCRIPTION,
